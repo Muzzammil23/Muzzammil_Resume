@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/*----- GLOBAL STYLE -----*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.content-wrap{
+    max-width: 900px;
+    margin:0 auto;
+    padding:1em;
+}
+
+.content-wrap h2{
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+main h2{
+    text-align: center;
+    
+}
+
+
+/* -----HEADER STYLE----- */
+
+header{
+    background-color: #2E5266;
+    color: #F1E3D3;
+    
+}
+
+header h1{
+    font-family: "Bree Serif",'Courier New', Courier, monospace;
+    font-size:3em;
+}
+
+header div p{
+    margin-top:1em;
+    margin-bottom:1em;
+    font-style:normal ;
+
+}
+
+header a{
+    color: white;
+    padding:1em;
+    border-radius: 40px;
+}
+header a:hover{
+    background-color: rgba(0, 0, 0, 0.47);
+    color:white;
+}
+
+header a:visited{
+    color:white
+}
+
+
+header div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----MAIN STYLES----- */
+
+.experience{
+ background-color: rgb(177, 186, 194);
+}
+.job-item{
+    margin-bottom: 15px;
+}
+
+
+
+.education{
+    background-image: url(../Images/img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    background-position: top right;
+}
+.education-item{
+    display:flex;
+    flex-direction: column;
+    margin:1em;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+
+/* -----FOOTER----- */
+footer{
+    background-color: #263a46c5;
+    color: #F1E3D3;
+    padding-top: 1em;
+
+}
+
+footer h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.5em;
+}
+
+
+footer a{
+    padding: 1em;
+    margin: 5px
+}
+
+
+
+@media screen and (min-width:750px){
+    header, footer{
+      text-align: center;
+    }
+    .project-item img {
+      float: left;
+      margin-right: 20px;
+    }
+  
+    .job-item {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 20px;
+
+      
+    }
+    .contact-list {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+
+
+
+
+
+
+
